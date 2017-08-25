@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>demo</name>
+	<name>zxjy</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -22,6 +22,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<fastjson.version>1.2.31</fastjson.version>
+		<druid.version>1.0.18</druid.version>
+		<mybatisplus.boot.starter.version>1.0.1</mybatisplus.boot.starter.version>
 	</properties>
 
 	<dependencies>
@@ -51,7 +54,7 @@
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatisplus-spring-boot-starter</artifactId>
-			<version>1.0.4</version>
+			<version>${mybatisplus.boot.starter.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.baomidou</groupId>
@@ -61,12 +64,12 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.31</version>
+			<version>${fastjson.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-			<version>1.0.18</version>
+			<version>${druid.version}</version>
 		</dependency>
 	</dependencies>
 
